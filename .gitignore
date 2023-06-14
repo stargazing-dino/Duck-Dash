@@ -1,0 +1,19 @@
+# Ignore debug folder
+*.yydebug/
+
+# Ignore user-specific options
+options/*.yy
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore build files
+*.exe
+*.apk
+*.ipa
+
+# Ignore user-specific settings
+*.xml
+*.json
+*.ini
