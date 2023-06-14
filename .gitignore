@@ -17,3 +17,6 @@ options/*.yy
 *.xml
 *.json
 *.ini
+
+# Mac stuff
+.DS_Store
