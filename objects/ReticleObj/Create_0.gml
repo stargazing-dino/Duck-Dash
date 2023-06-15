@@ -1,3 +1,5 @@
+//I made a change!
+
 chSpeed = 1/10
 shooting = false;
 cooldown = 60
