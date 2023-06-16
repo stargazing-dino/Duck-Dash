@@ -1,3 +1,3 @@
 countdown = 60
 
-sprite_index = 2
+image_index = 2
