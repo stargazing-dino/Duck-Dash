@@ -17,6 +17,14 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"duckObj","order":2,"path":"objects/duckObj/duckObj.yy",},
+    {"name":"duckJumpSprt","order":5,"path":"sprites/duckJumpSprt/duckJumpSprt.yy",},
+    {"name":"duckIdleSprt","order":1,"path":"sprites/duckIdleSprt/duckIdleSprt.yy",},
+    {"name":"platformSprt","order":2,"path":"sprites/platformSprt/platformSprt.yy",},
     {"name":"bangEffectObj","order":1,"path":"objects/bangEffectObj/bangEffectObj.yy",},
+    {"name":"platform","order":3,"path":"objects/platform/platform.yy",},
+    {"name":"duckRunSprt","order":4,"path":"sprites/duckRunSprt/duckRunSprt.yy",},
+    {"name":"bgSketch","order":3,"path":"sprites/bgSketch/bgSketch.yy",},
+    {"name":"duckFallSprt","order":6,"path":"sprites/duckFallSprt/duckFallSprt.yy",},
   ],
 }

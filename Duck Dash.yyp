@@ -9,7 +9,7 @@
     "children": [],
     "name": "Default",
   },
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy",},
@@ -34,9 +34,17 @@
     "IDEVersion": "2023.4.0.84",
   },
   "resources": [
+    {"id":{"name":"duckObj","path":"objects/duckObj/duckObj.yy",},},
+    {"id":{"name":"duckJumpSprt","path":"sprites/duckJumpSprt/duckJumpSprt.yy",},},
     {"id":{"name":"ReticleObj","path":"objects/ReticleObj/ReticleObj.yy",},},
     {"id":{"name":"Reticle","path":"sprites/Reticle/Reticle.yy",},},
+    {"id":{"name":"duckIdleSprt","path":"sprites/duckIdleSprt/duckIdleSprt.yy",},},
+    {"id":{"name":"platformSprt","path":"sprites/platformSprt/platformSprt.yy",},},
     {"id":{"name":"bangEffectObj","path":"objects/bangEffectObj/bangEffectObj.yy",},},
+    {"id":{"name":"platform","path":"objects/platform/platform.yy",},},
+    {"id":{"name":"duckRunSprt","path":"sprites/duckRunSprt/duckRunSprt.yy",},},
+    {"id":{"name":"bgSketch","path":"sprites/bgSketch/bgSketch.yy",},},
+    {"id":{"name":"duckFallSprt","path":"sprites/duckFallSprt/duckFallSprt.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
