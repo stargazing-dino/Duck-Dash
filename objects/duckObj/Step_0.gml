@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 //horizontal movement
 
 if(keyboard_check(vk_left)){
@@ -47,6 +44,7 @@ if(keyboard_check_pressed(vk_space)){
 	if(grounded || (coyote_time > 0)){
 		grounded = false
 		vspeed = jump_speed
+		audio_play_sound(duck_quack, 1, false);
 	}
 	else{
 		if(flaps > 0){
@@ -70,10 +68,15 @@ if(flap_state){
 }
 else{
 	if(grounded){
-		if(!keyboard_check(vk_right) && !keyboard_check(vk_left))
+		if(!keyboard_check(vk_right) && !keyboard_check(vk_left)){
 			sprite_index = duckIdleSprt
-		else
+        }
+		else{
 			sprite_index = duckRunSprt
+            if (!audio_is_playing(duck_walking)) {
+                audio_play_sound(duck_walking, 1, false);
+            }
+        }
 	}
 	else{
 		if(vspeed < -1)
