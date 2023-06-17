@@ -49,7 +49,7 @@ if(keyboard_check_pressed(vk_space)){
 	if(grounded || (coyote_time > 0)){
 		grounded = false
 		vspeed = jump_speed
-		audio_play_sound(duck_quack, 1, false);
+		audio_play_sound(duck_quacks[irandom_range(0, array_length_1d(duck_quacks) - 1)], 1, false);
 	}
 	else{
 		if(flaps > 0){
@@ -57,6 +57,7 @@ if(keyboard_check_pressed(vk_space)){
 			vspeed = flap_speed
 			flap_state = true
 			alarm[0] = flap_time
+			audio_play_sound(duck_quacks[irandom_range(0, array_length_1d(duck_quacks) - 1)], 1, false);
 		}
 	}
 }

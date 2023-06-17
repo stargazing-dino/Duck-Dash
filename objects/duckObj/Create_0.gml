@@ -32,3 +32,8 @@ coyote_time = 0
 
 flap_state = false
 flap_time = 5
+
+duck_quacks[0] = duck_quack;
+duck_quacks[1] = duck_quack_1;
+duck_quacks[2] = duck_quack_2;
+duck_quacks[3] = duck_quack_3;
