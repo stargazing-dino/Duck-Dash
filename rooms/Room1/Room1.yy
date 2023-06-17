@@ -8,7 +8,6 @@
   "inheritLayers": false,
   "instanceCreationOrder": [
     {"name":"inst_277BC573","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_2C78A32F","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_C72CEB1","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6A96B27F","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_42CBE310","path":"rooms/Room1/Room1.yy",},
@@ -31,12 +30,12 @@
     {"name":"inst_5EF9BBD3","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_5EA1B1C7","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_788EC167","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_3CF175D3","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_277BC573","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ReticleObj","path":"objects/ReticleObj/ReticleObj.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":224.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2C78A32F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"duckObj","path":"objects/duckObj/duckObj.yy",},"properties":[],"rotation":0.0,"scaleX":0.07685185,"scaleY":0.07685185,"x":543.99994,"y":512.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_C72CEB1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"platform","path":"objects/platform/platform.yy",},"properties":[],"rotation":0.0,"scaleX":17.0,"scaleY":1.0,"x":-3.0,"y":551.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6A96B27F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"platform","path":"objects/platform/platform.yy",},"properties":[],"rotation":0.0,"scaleX":1.796875,"scaleY":1.0,"x":173.0,"y":480.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_42CBE310","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"platform","path":"objects/platform/platform.yy",},"properties":[],"rotation":0.0,"scaleX":1.734375,"scaleY":1.0,"x":287.0,"y":411.0,},
@@ -59,6 +58,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5EF9BBD3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"platform","path":"objects/platform/platform.yy",},"properties":[],"rotation":0.0,"scaleX":1.140625,"scaleY":1.0,"x":-5.0,"y":57.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5EA1B1C7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"platform","path":"objects/platform/platform.yy",},"properties":[],"rotation":0.0,"scaleX":1.15625,"scaleY":1.0,"x":1005.0,"y":57.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_788EC167","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"RoomObj","path":"objects/RoomObj/RoomObj.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":-64.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3CF175D3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"duckObj","path":"objects/duckObj/duckObj.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":512.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"bgSketch","path":"sprites/bgSketch/bgSketch.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
