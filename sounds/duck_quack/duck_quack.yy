@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "duck_quack.mp3",
   "type": 0,
-  "volume": 0.28,
+  "volume": 0.82,
 }
