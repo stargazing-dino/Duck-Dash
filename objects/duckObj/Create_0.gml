@@ -16,7 +16,7 @@ m_speed = .5
 
 m_speed_current = 0
 
-jump_speed = -7 * scale
+jump_speed = -8 * scale
 
 flap_speed = -5 * scale
 
@@ -26,7 +26,7 @@ max_fall_speed = 10 * scale
 
 test_scale = image_xscale
 
-origin_height = test_scale*289
+origin_height = test_scale*28
 
 coyote_time = 0
 

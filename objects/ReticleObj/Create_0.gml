@@ -6,15 +6,15 @@ cooldown = 60
 
 
 function moveReticle() {
-        if mouse_x != x {x += (mouse_x-x) * chSpeed}
-        if mouse_y != y {y += (mouse_y-y) * chSpeed}
+        if duckObj.x != x {x += (duckObj.x-x) * chSpeed}
+        if duckObj.y != y {y += (duckObj.y-y) * chSpeed}
 }
 
 function targetPlayer() {
         chSpeed = 1/20
         image_index = 0
 
-        if mouse_x-x < 10 and mouse_x-x > -10 and mouse_y-y < 10 and mouse_y-y > -10 {shooting = true; cooldown = 60}
+        if duckObj.x-x < 15 and duckObj.x-x > -15 and duckObj.y-y < 15 and duckObj.y-y > -15 {shooting = true; cooldown = 60}
 }
 
 function fire() {

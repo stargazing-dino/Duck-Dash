@@ -28,11 +28,16 @@ else{
 
 x += m_speed_current * scale
 
+if(x < 30)
+	x = 30
+if(x > room_width - 30)
+	x = room_width -30
+
 if(coyote_time > 0)
 	coyote_time -=1
 
 if(grounded){
-	if(collision_line( x-213*test_scale, y+origin_height+1, x+213*test_scale,y+origin_height+1,platform,0,0) < 0){
+	if(collision_line( x-20*test_scale, y+origin_height+1, x+20*test_scale,y+origin_height+1,platform,0,0) < 0){
 		grounded = false
 		coyote_time = 10
 	}
